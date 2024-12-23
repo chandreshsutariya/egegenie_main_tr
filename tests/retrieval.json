@@ -1,0 +1,61 @@
+"""
+CHECKING THAT RETRIEVAL IS WORKING AS EXPECTED: RETRIEVING "ONLY" RELEVANT DATA AND NOT PASSING THE WHOLE DOCUMENT.
+
+THIS JSON DOC. IS THE RESPONSE FROM THE CHAIN, WHICH INCLUDES THE INPUT, RETRIEVED DOCs, AND THE RESPONSE FROM THE GENIE.
+"""
+
+
+
+{
+  "session_id": "2",
+  "passed_message:": {
+    "chat_history": [],
+    "input": "history:\n \nnow user is asking: how to use quick-view chart?",
+    "context": [
+      {
+        "id": null,
+        "metadata": {
+          // from page 0
+          "page_number": 0
+        },
+        "page_content": "### What is EgeMoney QuickView Charts and How to Use Them?\n#### ITB (IntoTheBlock) QuickView Analytics is a crypto prediction method developed with a machine learning algorithm. You can easily access the “general” information of any crypto asset you are interested in by using this feature under the ITB Analysis heading. All you should do is know how to read the graphs and signals/prediction charts you see. ITB Analytics is divided into two sections: Quick View and Predictions. In this article, we will explain how to access and use EgeMoney QuickView charts.\n### How To Access EgeMoney QuickView Charts?\n#### For the QuickView page in EgeMoney ITB Analysis, when you come to the “Analytics” heading in the menu on the website, you must click the “ITB Analysis” button.\n When you click on Quick View from the menu at the top right of the page, you will see the charts of this analysis method.\n In the menu on the left, you will see the currency unit of each cryptocurrency, whose analysis and chart you can see. This menu contains all cryptocurrencies whose data is available in our system and which you can access.\n-----",
+        "type": "Document"
+      },
+      {
+        "id": null,
+        "metadata": {
+          // from page 3
+          "page_number": 3
+        },
+        "page_content": "#### different buttons at the top right. The first is in list form as above, while the second works as an indicator: There are signals in this section that you need to read. There are four different groupings: Bear-Bull indicator, On-Chain Signals, Crypto Exchange Signals and Crypto Derivatives Signals. Likewise, every time you change your chosen coin and timeframe, the data and signals here also change as well.\n On-Chain Signals: Shows Net Network Growth, In The Money, Concentration and Large Transactions Volume. Crypto Exchange Signals: Shows Smart Price and Bid-Ask Volume Imbalance. Crypto Derivatives Signals: Shows future market momentum. In these readings, you should also be familiar with the terms “Bearish” and “Bullish” in signals. A rapid rise in prices in a particular financial market indicates the start of the Bull season. On the contrary, it is known that the “Bear” season begins when there is a significant decrease. In this case; These concepts you see on the signals chart actually indicate the course of the markets. If you want to learn more about QuickView Analytics, you can contact us, or you can access the data you want more easily by using our Telegram Bot.\n### What is Elliott Wave Theory and How can we use it to predict the behavior of\n-----",
+        "type": "Document"
+      },
+      {
+        "id": null,
+        "metadata": {
+          // from page 8
+          "page_number": 8
+        },
+        "page_content": "#### the title that says Ethereum (ETH) for Ethereum, you will see the chart belonging to Ethereum. In short, whatever coin you are looking for, you can reach the chart by clicking on that coin in the menu on the left. There are a total of 11 cryptos on the page, including BTC, ETH, BNB, DOGE, XRP, LTC, BCH, TRON, ADA, XLM and SOL, and if you click on which one, you will reach its chart. You can filter the dates and hours you want in the search bar at the top right of the page. This filtering feature helps you read ups and downs faster and analyze Elliott wave theory better. On the left side of the same line, the price and percentage of the currently selected cryptocurrency are seen. You will see a different chart for each cryptocurrency you choose, this is because each cryptocurrency has different values, prices, ups and downs. Please note that you have to read different charts for each currency, and to access these charts, you must click on the unit from the menu on the left.\n# How To Read the Elliott Wave Charts In Detail?\n#### To read the Elliott Analysis, you must first have a good knowledge of certain basic concepts and know what the parts of the charts are for.\n Section 1 shows which currency you are reading and what time period you have filtered for the value (price) of that currency. To change the filter date, you can\n-----",
+        "type": "Document"
+      },
+      {
+        "id": null,
+        "metadata": {
+          // from page 1
+          "page_number": 1
+        },
+        "page_content": "#### whose data is available in our system and which you can access.\n If you want to access the analysis of which cryptocurrency, simply click on that currency. For example, you can click on BTC for Bitcoin and ETH for Ethereum. The data of the unit you clicked will appear on a chart.\n This top chart gives you a brief summary. The information you see here consists of general summaries of a cryptocurrency. The box you see at the top of the chart contains an analysis of the market price. For any address with a balance of tokens, ITB identifies the average cost at which those tokens were purchased and compares it to current price. If Current Price > Average Cost, address is “In the Money.” If Current Price < Average Cost, address is “Out of the Money”. The second box indicates the total stocks of whales and investors. Whales are addresses that own more than 1% of the circulating supply and investors are addresses that own between 0.1% and 1% of the circulating supply.\n The third box gives the 30-day price correlation with Bitcoin as described in the title. Correlation refers to changes that occur simultaneously. If the other coin you are interested in is also increasing when Bitcoin goes up, there is a positive correlation. We can come across this situation in our daily life as well\n-----",
+        "type": "Document"
+      }
+    ],
+    "answer": "To use the EgeMoney QuickView charts, follow these steps:\n\n1. **Access the QuickView Page**: Go to the EgeMoney website and navigate to the \"Analytics\" heading in the menu. Click on the \"ITB Analysis\" button.\n\n2. **Select Quick View**: Click on \"Quick View\" from the menu at the top right of the page. This will display the charts related to the analysis method.\n\n3. **Choose your Cryptocurrency**: On the left side menu, you will see a list of available cryptocurrencies. Click on the one you want to analyze (e.g., BTC for Bitcoin, ETH for Ethereum).\n\n4. **Read the Charts**: Once you've selected a cryptocurrency, you will see its corresponding chart. Familiarize yourself with the different sections of the chart, which include price information, market analysis, and signals.\n\n5. **Understand the Signals**: At the top right, you'll find different buttons that show various indicators. Familiarize yourself with the Bear-Bull indicator, On-Chain Signals, Crypto Exchange Signals, and Crypto Derivatives Signals.\n\n6. **Filter Date and Time**: Use the search bar at the top right to filter the dates and hours for a more detailed analysis of price movements.\n\n7. **Analyze the Data**: Pay attention to the key metrics such as 'In The Money' or 'Out of the Money' indicators, whale and investor statistics, and the correlation with Bitcoin.\n\n8. **Seek Further Information**: If you want to learn more, consider reaching out for additional resources or using the Telegram Bot for easier access to data.\n\nBy following these steps, you can effectively use the QuickView charts for your cryptocurrency analysis."
+  },
+  "genie": "To use the EgeMoney QuickView charts, follow these steps:\n\n1. Access the QuickView Page: Go to the EgeMoney website and navigate to the \"Analytics\" heading in the menu. Click on the \"ITB Analysis\" button.\n\n2. Select Quick View: Click on \"Quick View\" from the menu at the top right of the page. This will display the charts related to the analysis method.\n\n3. Choose your Cryptocurrency: On the left side menu, you will see a list of available cryptocurrencies. Click on the one you want to analyze (e.g., BTC for Bitcoin, ETH for Ethereum).\n\n4. Read the Charts: Once you've selected a cryptocurrency, you will see its corresponding chart. Familiarize yourself with the different sections of the chart, which include price information, market analysis, and signals.\n\n5. Understand the Signals: At the top right, you'll find different buttons that show various indicators. Familiarize yourself with the Bear-Bull indicator, On-Chain Signals, Crypto Exchange Signals, and Crypto Derivatives Signals.\n\n6. Filter Date and Time: Use the search bar at the top right to filter the dates and hours for a more detailed analysis of price movements.\n\n7. Analyze the Data: Pay attention to the key metrics such as 'In The Money' or 'Out of the Money' indicators, whale and investor statistics, and the correlation with Bitcoin.\n\n8. Seek Further Information: If you want to learn more, consider reaching out for additional resources or using the Telegram Bot for easier access to data.\n\nBy following these steps, you can effectively use the QuickView charts for your cryptocurrency analysis.",
+  "conversation_history": [
+    {
+      "user": "how to use quick-view chart?",
+      "genie": "To use the EgeMoney QuickView charts, follow these steps:\n\n1. Access the QuickView Page: Go to the EgeMoney website and navigate to the \"Analytics\" heading in the menu. Click on the \"ITB Analysis\" button.\n\n2. Select Quick View: Click on \"Quick View\" from the menu at the top right of the page. This will display the charts related to the analysis method.\n\n3. Choose your Cryptocurrency: On the left side menu, you will see a list of available cryptocurrencies. Click on the one you want to analyze (e.g., BTC for Bitcoin, ETH for Ethereum).\n\n4. Read the Charts: Once you've selected a cryptocurrency, you will see its corresponding chart. Familiarize yourself with the different sections of the chart, which include price information, market analysis, and signals.\n\n5. Understand the Signals: At the top right, you'll find different buttons that show various indicators. Familiarize yourself with the Bear-Bull indicator, On-Chain Signals, Crypto Exchange Signals, and Crypto Derivatives Signals.\n\n6. Filter Date and Time: Use the search bar at the top right to filter the dates and hours for a more detailed analysis of price movements.\n\n7. Analyze the Data: Pay attention to the key metrics such as 'In The Money' or 'Out of the Money' indicators, whale and investor statistics, and the correlation with Bitcoin.\n\n8. Seek Further Information: If you want to learn more, consider reaching out for additional resources or using the Telegram Bot for easier access to data.\n\nBy following these steps, you can effectively use the QuickView charts for your cryptocurrency analysis."
+    }
+  ]
+}
